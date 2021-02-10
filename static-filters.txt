@@ -1,0 +1,14 @@
+! 2021-02-10 https://rarbgway.org
+rarbgway.org###s84pf4h
+||codedexchange.com^$popup,domain=rarbgway.org
+||weaveradrenaline.com^$popup,domain=rarbgway.org
+||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
+rarbgway.org###qs8z6dx
+
+! 2021-02-10 https://tinhte.vn
+||tinhte.vn/static/js/tinhteThemeX.js$script,1p
+||photo2.tinhte.vn/data/avatars/*$image,1p
+tinhte.vn##.pro-container
+tinhte.vn##.tinhte-facts-wrapper
+||tinhte.vn/_next/static/CN05XdX_nzKK2Sdqz13OP/pages/threadUIView.js$script,1p
+
