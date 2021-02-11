@@ -1,3 +1,5 @@
+! Title: Non cosmetic filters
+
 ||codedexchange.com^$popup,domain=rarbgway.org
 ||weaveradrenaline.com^$popup,domain=rarbgway.org
 ||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
@@ -6,3 +8,11 @@
 ||photo2.tinhte.vn/data/avatars/*$image,1p
 ||tinhte.vn/_next/static/CN05XdX_nzKK2Sdqz13OP/pages/threadUIView.js$script,1p
 
+||zjs.zadn.vn/zplayer/releases/*/3.min.js$script,domain=zingnews.vn
+||stc-sp.zadn.vn^$domain=zingnews.vn
+||static-znews.zadn.vn/fonts/*$domain=zingnews.vn
+||adtima-static.zadn.vn^$domain=zingnews.vn
+||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/*$domain=zingnews.vn
+||static-znews.zadn.vn/releases/*/app-scrolltofixed.min.js$script,domain=zingnews.vn
+||log.zingnews.vn^$1p
+||zjs.zadn.vn^$xhr,domain=zingnews.vn
