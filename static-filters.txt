@@ -16,3 +16,16 @@
 ||static-znews.zadn.vn/releases/*/app-scrolltofixed.min.js$script,domain=zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
+
+||gw.vnexpress.net^$1p
+||la3.vnecdn.net^$domain=vnexpress.net
+||usi-saas.vnexpress.net^$1p
+||la.vnecdn.net^$domain=vnexpress.net
+||logperf.vnexpress.net^$1p
+||s.vnecdn.net/myvne/*$domain=vnexpress.net
+||s.vnecdn.net/*/interactions/*$script,domain=vnexpress.net
+||s1.vnecdn.net/*/production/widget/*$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/modules/home.defer.js$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/modules/detail.defer.js$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/vod.js$script,domain=vnexpress.net
+||s1.vnecdn.net/*/production/libs/*$script,domain=vnexpress.net
