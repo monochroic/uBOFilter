@@ -14,3 +14,13 @@
 ||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-corona.min.js$script,domain=zingnews.vn
 ||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-table.min.js$script,domain=zingnews.vn
 ||static-znews.zadn.vn/releases/wap/v1.1.81/js/utilities-widget.min.js$script,domain=zingnews.vn
+
+! vnexpress
+vnexpress.net###banner_top
+||logperf.vnexpress.net^$1p
+||s.vnecdn.net/myvne/*$domain=vnexpress.net
+||s1.vnecdn.net^$font,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/widget/covid.js$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/localforage.sessionstorage.js$script,domain=vnexpress.net
+||usi-saas.vnexpress.net^$1p
+||la.vnecdn.net^$domain=vnexpress.net
