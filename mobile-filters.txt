@@ -1,0 +1,16 @@
+! Title: Mobile filters
+
+! zingnews.vn
+||api.zingnews.vn^$1p
+||log.zingnews.vn^$1p
+||stc-sp.zadn.vn^$domain=zingnews.vn
+||adtima-static.zadn.vn^$domain=zingnews.vn
+||zjs.zadn.vn/zplayer/ads.js$domain=zingnews.vn
+||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/*$domain=zingnews.vn
+||static-znews.zadn.vn/fonts/*$stylesheet,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/comments.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-corona.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-table.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/v1.1.81/js/utilities-widget.min.js$script,domain=zingnews.vn
