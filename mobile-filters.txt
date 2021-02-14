@@ -1,6 +1,7 @@
 ! Title: Mobile filters
 
 ! zingnews.vn
+zingnews.vn##.the-article-thumbnail
 ||api.zingnews.vn^$1p
 ||log.zingnews.vn^$1p
 ||stc-sp.zadn.vn^$domain=zingnews.vn
@@ -19,24 +20,19 @@
 ! vnexpress.net
 vnexpress.net###banner_top
 ||logperf.vnexpress.net^$1p
+||usi-saas.vnexpress.net^$1p
+||gw.vnexpress.net^$1p
+||ps.vnexpress.net^$1p
 ||s.vnecdn.net/myvne/*$domain=vnexpress.net
 ||s1.vnecdn.net^$font,domain=vnexpress.net
 ||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/widget/covid.js$script,domain=vnexpress.net
 ||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/localforage.sessionstorage.js$script,domain=vnexpress.net
-||usi-saas.vnexpress.net^$1p
 ||la.vnecdn.net^$domain=vnexpress.net
-||gw.vnexpress.net^$1p
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/interactions/*$script,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/thirdparty/*$script,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/jquery.scrollbar.js$script,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/scrollTracking.js$script,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/localforage.min.js$script,domain=vnexpress.net
 ||la3.vnecdn.net^$domain=vnexpress.net
 ||la2.vnecdn.net^$domain=vnexpress.net
-||ps.vnexpress.net^$1p
-||s.vnecdn.net/vnexpress/restruct/j/v787/v2/helper/interactions/*$script,domain=vnexpress.net
-||s.vnecdn.net/video/restruct/j/v268/mobile/vod2/hls.js$script
 ||video.vnexpress.net^$subdocument,1p
+||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/interactions/m_commentv3.js$script,domain=vnexpress.net
+||s.vnecdn.net/vnexpress/restruct/j/v787/redesign/helper/interactions/m_commentv3.js$script,domain=vnexpress.net
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
@@ -54,3 +50,13 @@ tinhte.vn##.pro-container
 ||photo2.tinhte.vn/data/avatars/*$image,1p
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
+
+! 9gag.com
+9gag.com##.salt-container
+||9gag.com/static/*$script,1p
+||miscmedia-9gag-fun.9cache.com^$domain=9gag.com
+||t.9gag.com^$1p
+||9gag.com/v1/featured-posts$xhr,1p
+||9gag.com/s/*/static/dist/mobile/js/marked.js$script,1p
+||9gag.com/embed/featured-videos.html$subdocument,1p
+||9gag.com/s/*/static/dist/ads/embed/default.bundle.js$script,1p
