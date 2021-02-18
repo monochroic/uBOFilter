@@ -9,12 +9,12 @@ zingnews.vn##.the-article-thumbnail
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/*$domain=zingnews.vn
 ||static-znews.zadn.vn/fonts/*$stylesheet,domain=zingnews.vn
 @@||static-znews.zadn.vn/fonts/znews-icons/v029/style.css$stylesheet,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/comments.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-corona.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/article-table.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/v1.1.81/js/utilities-widget.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/comments.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/article-corona.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/article-table.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/utilities-widget.min.js$script,domain=zingnews.vn
 ||znews-static.zadn.vn^$domain=zingnews.vn
 ||api.zingnews.vn/api/mobile/topic.json$xhr,1p
 
@@ -26,14 +26,14 @@ vnexpress.net###banner_top
 ||ps.vnexpress.net^$1p
 ||s.vnecdn.net/myvne/*$domain=vnexpress.net
 ||s1.vnecdn.net^$font,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/v3/production/widget/covid.js$script,domain=vnexpress.net
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/localforage.sessionstorage.js$script,domain=vnexpress.net
+||s1.vnecdn.net/*/covid.js$script,domain=vnexpress.net
+||s1.vnecdn.net/*/localforage.sessionstorage.js$script,domain=vnexpress.net
 ||la.vnecdn.net^$domain=vnexpress.net
 ||la3.vnecdn.net^$domain=vnexpress.net
 ||la2.vnecdn.net^$domain=vnexpress.net
 ||video.vnexpress.net^$subdocument,1p
-||s1.vnecdn.net/vnexpress/restruct/j/v1430/redesign/helper/interactions/m_commentv3.js$script,domain=vnexpress.net
-||s.vnecdn.net/vnexpress/restruct/j/v787/redesign/helper/interactions/m_commentv3.js$script,domain=vnexpress.net
+||s1.vnecdn.net/*/m_commentv3.js$script,domain=vnexpress.net
+||s.vnecdn.net/*/m_commentv3.js$script,domain=vnexpress.net
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
@@ -80,3 +80,13 @@ tinhte.vn##.pro-container
 ||analytics.vnreview.vn^$1p
 ||vnreview.vn/VnReview/html/app/js/app.js$script,1p
 ||vnreview.vn/ReviewPortlet-portlet/js/main.js$script,1p
+
+! mspoweruser.com
+||mspoweruser.com^$font,1p
+||mspoweruser.com^$xhr,1p
+||mspoweruser.com/cdn-cgi/apps/head/*$script,1p
+
+! sxyprn.com
+||362b643a66026e.com^$popup,domain=sxyprn.com
+||sxyprn.com/php/comment_load.php$xhr,1p
+||sxyprn.com/player/p12.js$script,1p
