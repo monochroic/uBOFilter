@@ -1,22 +1,23 @@
 ! Title: Mobile filters
 
 ! zingnews.vn
-zingnews.vn##.the-article-thumbnail
 ||log.zingnews.vn^$1p
 ||stc-sp.zadn.vn^$domain=zingnews.vn
 ||adtima-static.zadn.vn^$domain=zingnews.vn
 ||zjs.zadn.vn/zplayer/ads.js$domain=zingnews.vn
-||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/*$domain=zingnews.vn
-||static-znews.zadn.vn/fonts/*$stylesheet,domain=zingnews.vn
-@@||static-znews.zadn.vn/fonts/znews-icons/v029/style.css$stylesheet,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/comments.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/article-corona.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/article-table.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/utilities-widget.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/vendors~article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/comments.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/article-corona.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/article-table.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/utilities-widget.min.js$script,domain=zingnews.vn
 ||znews-static.zadn.vn^$domain=zingnews.vn
 ||api.zingnews.vn/api/mobile/topic.json$xhr,1p
+||static-znews.zadn.vn/fonts/noto-serif/v002/noto-serif.css$stylesheet,domain=zingnews.vn
+||static-znews.zadn.vn/fonts/roboto/v006/roboto.css$stylesheet,domain=zingnews.vn
+||static-znews.zadn.vn/js/chart/highcharts.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/*/chartmap.min.js$script,domain=zingnews.vn
+||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
 
 ! vnexpress.net
 vnexpress.net###banner_top
@@ -34,6 +35,9 @@ vnexpress.net###banner_top
 ||video.vnexpress.net^$subdocument,1p
 ||s1.vnecdn.net/*/m_commentv3.js$script,domain=vnexpress.net
 ||s.vnecdn.net/*/m_commentv3.js$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/v1442/v2/helper/mvod/ads.js$script,domain=vnexpress.net
+||vnexpress.net/microservice/block/*$xhr,1p
+||s1.vnecdn.net/vnexpress/restruct/j/v1442/redesign/helper/jquery.migrate.js$script,domain=vnexpress.net
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
@@ -87,6 +91,5 @@ tinhte.vn##.pro-container
 ||mspoweruser.com/cdn-cgi/apps/head/*$script,1p
 
 ! sxyprn.com
-||362b643a66026e.com^$popup,domain=sxyprn.com
+||362b643a66026e.com^$popunder,domain=sxyprn.com
 ||sxyprn.com/php/comment_load.php$xhr,1p
-||sxyprn.com/player/p12.js$script,1p
