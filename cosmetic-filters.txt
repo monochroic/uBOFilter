@@ -1,6 +1,0 @@
-! Title: Cosmetic filters
-
-tinhte.vn##.pro-container
-tinhte.vn##.tinhte-facts-wrapper
-
-vnexpress.net###supper_masthead
