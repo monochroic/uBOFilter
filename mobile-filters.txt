@@ -1,24 +1,5 @@
 ! Title: Mobile filters
 
-! zingnews.vn
-||log.zingnews.vn^$1p
-||stc-sp.zadn.vn^$domain=zingnews.vn
-||adtima-static.zadn.vn^$domain=zingnews.vn
-||zjs.zadn.vn/zplayer/ads.js$domain=zingnews.vn
-||static-znews.zadn.vn/*/article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/vendors~article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/comments.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/article-corona.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/article-table.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/utilities-widget.min.js$script,domain=zingnews.vn
-||znews-static.zadn.vn^$domain=zingnews.vn
-||api.zingnews.vn/api/mobile/topic.json$xhr,1p
-||static-znews.zadn.vn/fonts/noto-serif/v002/noto-serif.css$stylesheet,domain=zingnews.vn
-||static-znews.zadn.vn/fonts/roboto/v006/roboto.css$stylesheet,domain=zingnews.vn
-||static-znews.zadn.vn/js/chart/highcharts.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/*/chartmap.min.js$script,domain=zingnews.vn
-||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
-
 ! vnexpress.net
 vnexpress.net###banner_top
 ||logperf.vnexpress.net^$1p

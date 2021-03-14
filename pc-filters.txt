@@ -10,15 +10,6 @@
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
 
-||zjs.zadn.vn/zplayer/releases/*/3.min.js$script,domain=zingnews.vn
-||stc-sp.zadn.vn^$domain=zingnews.vn
-||static-znews.zadn.vn/fonts/*$domain=zingnews.vn
-||adtima-static.zadn.vn^$domain=zingnews.vn
-||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/*$domain=zingnews.vn
-||static-znews.zadn.vn/releases/*/app-scrolltofixed.min.js$script,domain=zingnews.vn
-||log.zingnews.vn^$1p
-||zjs.zadn.vn^$xhr,domain=zingnews.vn
-
 ||gw.vnexpress.net^$1p
 ||la3.vnecdn.net^$domain=vnexpress.net
 ||usi-saas.vnexpress.net^$1p
