@@ -9,3 +9,14 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.css$stylesheet,domain=zingnews.vn
+
+! 9gag.com
+||9gag.com/static/piwik.7688214.js$script,1p
+||miscmedia-9gag-fun.9cache.com^$domain=9gag.com
+||t.9gag.com^$1p
+||web-t.9gag.com^$1p
+||9gag.com/v1/featured-posts$xhr,1p
+||comment-cdn.9gag.com/v1/cacheable/app.json$xhr,1p
+||9gag.com/embed/featured-videos.html$subdocument,1p
+||9gag.com/*/default.bundle.js$script,1p
+||9gag.com/*/marked.js$script,1p
