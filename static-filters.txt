@@ -3,6 +3,7 @@
 ! -- BLOCKED DOMAINS --
 ||doubleclick.net^
 ||admicro.vn^
+||adtimaserver.vn^
 ||googlesyndication.com^
 ||google-analytics.com^
 ||googletagservices.com^
@@ -12,17 +13,21 @@
 ||cache.vn^
 ||unpkg.com^
 ||googleapis.com^$3p
+||adtima-static.zadn.vn^$3p
+||stc-sp.zadn.vn^$3p
+||zalo.me^$3p
+||zaloapp.com^$3p
 
 ! -- SPECIFIC SITES --
 ! zingnews.vn
-||adtima-static.zadn.vn^$domain=zingnews.vn
-||stc-sp.zadn.vn^$domain=zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
 ||znews-static.zadn.vn^$domain=zingnews.vn
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.css$stylesheet,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/utilities-widget.min.js$script,domain=zingnews.vn
+||api.zingnews.vn/public/v2/getUtilities$xhr,1p
 
 ! 9gag.com
 ||9gag.com/static/piwik.7688214.js$script,1p
