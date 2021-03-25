@@ -26,8 +26,19 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
 ||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.css$stylesheet,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/wap/*/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/web/*/js/article-grid.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/web/*/js/article-gallery.min.js$script,domain=zingnews.vn
+||static-znews.zadn.vn/releases/web/*/js/article-scrolltofixed.min.js$script,domain=zingnews.vn
 ||static-znews.zadn.vn/releases/wap/*/js/utilities-widget.min.js$script,domain=zingnews.vn
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
+
+! baomoi.com
+||service.baomoi.com^$1p
+||log.baomoi.com^$1p
+||h5.zdn.vn^$domain=baomoi.com
+||h5.zadn.vn^$domain=baomoi.com
 
 ! 9gag.com
 ||9gag.com/static/piwik.7688214.js$script,1p
