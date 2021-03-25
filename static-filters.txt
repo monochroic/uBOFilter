@@ -1,5 +1,19 @@
 ! Title: uBO static filters
 
+! -- BLOCKED DOMAINS --
+||doubleclick.net^
+||admicro.vn^
+||googlesyndication.com^
+||google-analytics.com^
+||googletagservices.com^
+||googletagmanager.com^
+||connect.facebook.net^
+||amcdn.vn^
+||cache.vn^
+||unpkg.com^
+||googleapis.com^$3p
+
+! -- SPECIFIC SITES --
 ! zingnews.vn
 ||adtima-static.zadn.vn^$domain=zingnews.vn
 ||stc-sp.zadn.vn^$domain=zingnews.vn
@@ -22,6 +36,11 @@
 ||9gag.com/*/marked.js$script,1p
 
 ! tinhte.vn
+||photo2.tinhte.vn/*_1800x225.*$image,1p
+||photo2.tinhte.vn/*_300x600.*$image,1p
+||photo2.tinhte.vn/*_1600x250.*$image,1p
+||photo2.tinhte.vn/*_720x405.*$image,1p
+||photo2.tinhte.vn/*_700x500.*$image,1p
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
 
