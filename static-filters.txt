@@ -43,7 +43,7 @@
 ||vi-serve.com^
 
 ! -- THIRD PARTY DOMAINS --
-||google.com^$3p,domain=vnexpress.net
+||google.com^$3p,domain=vnexpress.net;tinhte.vn
 ||yahoo.com^$3p
 ||twitter.com^$3p
 
@@ -85,6 +85,9 @@
 ||photo2.tinhte.vn/*_1600x250.*$image,1p
 ||photo2.tinhte.vn/*_720x405.*$image,1p
 ||photo2.tinhte.vn/*_700x500.*$image,1p
+||photo2.tinhte.vn/*_Medium.*$image,1p
+||photo2.tinhte.vn/*_Halfpage.*$image,1p
+||photo2.tinhte.vn/*_Inline.*$image,1p
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
 
@@ -93,7 +96,8 @@
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
-||statictuoitre.mediacdn.vn^$domain=tuoitre.vn
+||tuoitre.vn^$subdocument,1p
+||tuoitrenews.vn^$subdocument,domain=tuoitre.vn
 
 ! vnreview.vn
 ||vnreview.vn/ThemeReview-theme/js/ads.home.vn.js$script,1p
