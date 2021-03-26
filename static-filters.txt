@@ -12,11 +12,35 @@
 ||amcdn.vn^
 ||cache.vn^
 ||unpkg.com^
-||googleapis.com^$3p
-||adtima-static.zadn.vn^$3p
-||stc-sp.zadn.vn^$3p
-||zalo.me^$3p
-||zaloapp.com^$3p
+||googleapis.com^
+||adtima-static.zadn.vn^
+||stc-sp.zadn.vn^
+||zalo.me^
+||zaloapp.com^
+||cdnjs.cloudflare.com^
+||amplitude.com^
+||getblueshift.com^
+||onesignal.com^
+||eclick.vn^
+||3lift.com^
+||adnxs.com^
+||adsrvr.org^
+||casalemedia.com^
+||criteo.com^
+||criteo.net^
+||cloudfront.net^
+||indexww.com^
+||lijit.com^
+||openx.net^
+||pbstck.com^
+||pubmatic.com^
+||rlcdn.com^
+||rubiconproject.com^
+||videoplayerhub.com^
+
+! -- THIRD PARTY DOMAINS --
+||google.com^$3p
+||yahoo.com^$3p
 
 ! -- SPECIFIC SITES --
 ! zingnews.vn
@@ -46,7 +70,6 @@
 ||t.9gag.com^$1p
 ||web-t.9gag.com^$1p
 ||9gag.com/v1/featured-posts$xhr,1p
-!||comment-cdn.9gag.com/v1/cacheable/app.json$xhr,1p
 ||9gag.com/embed/featured-videos.html$subdocument,1p
 ||9gag.com/*/default.bundle.js$script,1p
 ||9gag.com/*/marked.js$script,1p
@@ -65,7 +88,7 @@
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
-||statictuoitre.mediacdn.vn^$font,domain=tuoitre.vn
+||statictuoitre.mediacdn.vn^$1p
 
 ! vnreview.vn
 ||vnreview.vn/ThemeReview-theme/js/ads.home.vn.js$script,1p
@@ -102,3 +125,7 @@
 ||test.24h.com.vn^$1p
 ||cdn.24h.com.vn/upload/24h_js_library/prebid.js$script,1p
 ||static.24h.com.vn/js/videojs-ie8.min.js$script,1p
+
+! bigc.vn
+||www.bigc.vn/js/general_application_promotion_detail.*$script,domain=www.bigc.vn
+bigc.vn##+js(rc,col-md-8)
