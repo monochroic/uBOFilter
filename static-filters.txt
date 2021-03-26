@@ -37,10 +37,15 @@
 ||rlcdn.com^
 ||rubiconproject.com^
 ||videoplayerhub.com^
+||amazon-adsystem.com^
+||consensu.org^
+||quantserve.com^
+||vi-serve.com^
 
 ! -- THIRD PARTY DOMAINS --
-||google.com^$3p
+||google.com^$3p,domain=vnexpress.net
 ||yahoo.com^$3p
+||twitter.com^$3p
 
 ! -- SPECIFIC SITES --
 ! zingnews.vn
@@ -88,7 +93,7 @@
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
-||statictuoitre.mediacdn.vn^$1p
+||statictuoitre.mediacdn.vn^$domain=tuoitre.vn
 
 ! vnreview.vn
 ||vnreview.vn/ThemeReview-theme/js/ads.home.vn.js$script,1p
