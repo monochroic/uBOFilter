@@ -40,6 +40,8 @@
 ||quantserve.com^
 ||vi-serve.com^
 ||gravatar.com^
+||firebaseinstallations.googleapis.com^
+||firebase.googleapis.com
 
 ! -- THIRD PARTY DOMAINS --
 ||google.com^$3p,script
