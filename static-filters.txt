@@ -16,7 +16,6 @@
 ||stc-sp.zadn.vn^
 ||zalo.me^
 ||zaloapp.com^
-||cdnjs.cloudflare.com^
 ||amplitude.com^
 ||getblueshift.com^
 ||onesignal.com^
@@ -41,7 +40,7 @@
 ||vi-serve.com^
 ||gravatar.com^
 ||firebaseinstallations.googleapis.com^
-||firebase.googleapis.com
+||firebase.googleapis.com^
 
 ! -- THIRD PARTY DOMAINS --
 ||google.com^$3p,script
@@ -136,3 +135,8 @@ bigc.vn##+js(rc,col-md-8)
 ||www.youtube.com/s/player/*/player_ias.vflset/*/embed.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/fetch-polyfill.vflset/fetch-polyfill.js$script,domain=www.youtube.com
+
+! sxyprn.com
+||sxyprn.com/php/comment_load.php$xhr,1p
+sxyprn.com##p
+sxyprn.com##article
