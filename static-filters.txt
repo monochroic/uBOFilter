@@ -43,7 +43,6 @@
 ||firebase.googleapis.com^
 
 ! -- THIRD PARTY DOMAINS --
-||google.com^$3p,script
 ||yahoo.com^$3p
 ||twitter.com^$3p
 
@@ -128,15 +127,10 @@
 ||static.24h.com.vn/js/videojs-ie8.min.js$script,1p
 
 ! bigc.vn
-||www.bigc.vn/js/general_application_promotion_detail.*$script,domain=www.bigc.vn
+||www.bigc.vn/js/general_application_promotion_detail.*$script,1p
 bigc.vn##+js(rc,col-md-8)
 
 ! youtube.com
 ||www.youtube.com/s/player/*/player_ias.vflset/*/embed.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/fetch-polyfill.vflset/fetch-polyfill.js$script,domain=www.youtube.com
-
-! sxyprn.com
-||sxyprn.com/php/comment_load.php$xhr,1p
-sxyprn.com##p
-sxyprn.com##article
