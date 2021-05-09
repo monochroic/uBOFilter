@@ -14,8 +14,8 @@
 ||unpkg.com^
 ||adtima-static.zadn.vn^
 ||stc-sp.zadn.vn^
-||zalo.me^
-||zaloapp.com^
+||sp.zalo.me^
+||stc.za.zaloapp.com^
 ||amplitude.com^
 ||getblueshift.com^
 ||onesignal.com^
@@ -50,16 +50,8 @@
 ! zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
-||znews-static.zadn.vn^$domain=zingnews.vn
 ||api.zingnews.vn/public/v2/history$xhr,1p
-||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.js$script,domain=zingnews.vn
-||zjs.zadn.vn/zplayer/plugins/zplayer-autoplay-countdown-plugin/79209/app.min.css$stylesheet,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/vendors~article-zoomer.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/web/*/js/article-grid.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/web/*/js/article-gallery.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/web/*/js/article-scrolltofixed.min.js$script,domain=zingnews.vn
-||static-znews.zadn.vn/releases/wap/*/js/utilities-widget.min.js$script,domain=zingnews.vn
+||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
 
 ! baomoi.com
@@ -70,13 +62,10 @@
 
 ! 9gag.com
 ||9gag.com/static/piwik.7688214.js$script,1p
-||miscmedia-9gag-fun.9cache.com^$domain=9gag.com
 ||t.9gag.com^$1p
 ||web-t.9gag.com^$1p
 ||9gag.com/v1/featured-posts$xhr,1p
 ||9gag.com/embed/featured-videos.html$subdocument,1p
-||9gag.com/*/default.bundle.js$script,1p
-||9gag.com/*/marked.js$script,1p
 
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
