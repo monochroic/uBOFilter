@@ -15,7 +15,7 @@
 ||adtima-static.zadn.vn^
 ||stc-sp.zadn.vn^
 ||sp.zalo.me^
-||stc.za.zaloapp.com^
+||zaloapp.com^
 ||amplitude.com^
 ||getblueshift.com^
 ||onesignal.com^
@@ -53,6 +53,11 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
+||static-znews.zadn.vn/*/app-scrolltofixed.min.js$script,domain=zingnews.vn
+||zjs.zadn.vn/*/app.min.js$script,domain=zingnews.vn
+zingnews.vn##+js(acis,window.ZA.getVisitorID)
+zingnews.vn##+js(acis,window.znAnalytic)
+zingnews.vn##+js(acis,getClickSource)
 
 ! baomoi.com
 ||service.baomoi.com^$1p
@@ -70,6 +75,12 @@
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
+tinhte.vn##+js(acis,getClientId)
+tinhte.vn##+js(acis,getBrowserInfo)
+tinhte.vn##+js(acis,getUtmInfo)
+tinhte.vn##+js(acis,getUserId)
+tinhte.vn##+js(acis,getFingerprint)
+tinhte.vn##+js(acis,generateSignature)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
