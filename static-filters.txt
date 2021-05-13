@@ -53,11 +53,9 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
-||static-znews.zadn.vn/*/app-scrolltofixed.min.js$script,domain=zingnews.vn
-||zjs.zadn.vn/*/app.min.js$script,domain=zingnews.vn
-zingnews.vn##+js(acis,window.ZA.getVisitorID)
-zingnews.vn##+js(acis,window.znAnalytic)
-zingnews.vn##+js(acis,getClickSource)
+zingnews.vn##+js(aopr, window.znAnalytic)
+zingnews.vn##+js(acis, window.fbq)
+zingnews.vn##+js(aopr, Date)
 
 ! baomoi.com
 ||service.baomoi.com^$1p
@@ -75,6 +73,9 @@ zingnews.vn##+js(acis,getClickSource)
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
+tinhte.vn##+js(acis, window.fbq)
+tinhte.vn##+js(acis, window.fbAsyncInit)
+tinhte.vn##+js(acis, firebaseConfig)
 tinhte.vn##+js(acis,getClientId)
 tinhte.vn##+js(acis,getBrowserInfo)
 tinhte.vn##+js(acis,getUtmInfo)
