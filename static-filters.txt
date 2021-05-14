@@ -53,9 +53,9 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
-zingnews.vn##+js(aopr, window.znAnalytic)
 zingnews.vn##+js(acis, window.fbq)
-zingnews.vn##+js(aopr, Date)
+zingnews.vn##+js(aopr, _zap)
+zingnews.vn##+js(aopr, znApp)
 
 ! baomoi.com
 ||service.baomoi.com^$1p
