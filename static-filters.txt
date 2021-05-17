@@ -85,6 +85,11 @@ tinhte.vn##+js(acis,generateSignature)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
+tiki.vn##+js(aopw, tiki)
+tiki.vn##+js(aopw, blueshift)
+tiki.vn##+js(acis, amplitude)
+tiki.vn##+js(aopw, _blueshiftid)
+tiki.vn##+js(aopw, fbAsyncInit)
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
