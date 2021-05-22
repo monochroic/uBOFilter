@@ -53,7 +53,7 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
-zingnews.vn##+js(acis, window.fbq)
+zingnews.vn##+js(acis, fbq)
 zingnews.vn##+js(aopr, _zap)
 zingnews.vn##+js(aopr, znApp)
 
@@ -73,15 +73,18 @@ zingnews.vn##+js(aopr, znApp)
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
-tinhte.vn##+js(acis, window.fbq)
-tinhte.vn##+js(acis, window.fbAsyncInit)
+tinhte.vn##+js(acis, fbq)
+tinhte.vn##+js(acis, fbAsyncInit)
 tinhte.vn##+js(acis, firebaseConfig)
-tinhte.vn##+js(acis,getClientId)
-tinhte.vn##+js(acis,getBrowserInfo)
-tinhte.vn##+js(acis,getUtmInfo)
-tinhte.vn##+js(acis,getUserId)
-tinhte.vn##+js(acis,getFingerprint)
-tinhte.vn##+js(acis,generateSignature)
+tinhte.vn##+js(acis, getClientId)
+tinhte.vn##+js(acis, getBrowserInfo)
+tinhte.vn##+js(acis, getUtmInfo)
+tinhte.vn##+js(acis, getUserId)
+tinhte.vn##+js(acis, getFingerprint)
+tinhte.vn##+js(acis, generateSignature)
+tinhte.vn##+js(acis, ga)
+tinhte.vn##+js(acis, ccadnet_fb)
+tinhte.vn##+js(aopr, ccnAdsQueue)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
