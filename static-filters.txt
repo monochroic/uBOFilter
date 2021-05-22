@@ -140,3 +140,8 @@ bigc.vn##+js(rc,col-md-8)
 ||www.youtube.com/s/player/*/player_ias.vflset/*/embed.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script,domain=www.youtube.com
 ||www.youtube.com/s/player/*/fetch-polyfill.vflset/fetch-polyfill.js$script,domain=www.youtube.com
+
+! rarbgway.org
+||dyncdn.me/static/20/js/expla95.js$script,domain=rarbgway.org
+||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
+rarbgway.org##+js(aopr, el)
