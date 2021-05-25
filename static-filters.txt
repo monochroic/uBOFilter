@@ -67,8 +67,13 @@ zingnews.vn##+js(aopr, znApp)
 ||9gag.com/static/piwik.7688214.js$script,1p
 ||t.9gag.com^$1p
 ||web-t.9gag.com^$1p
+||privacy-api.9gag.com^$1p
 ||9gag.com/v1/featured-posts$xhr,1p
 ||9gag.com/embed/featured-videos.html$subdocument,1p
+9gag.com##+js(aopw, fbq)
+9gag.com##+js(acis, ga)
+9gag.com##+js(aopw, _paq)
+9gag.com##+js(aopw, _qevents)
 
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
@@ -139,12 +144,8 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||www.bigc.vn/js/general_application_promotion_detail.*$script,1p
 bigc.vn##+js(rc,col-md-8)
 
-! youtube.com
-||www.youtube.com/s/player/*/player_ias.vflset/*/embed.js$script,domain=www.youtube.com
-||www.youtube.com/s/player/*/player_ias.vflset/*/remote.js$script,domain=www.youtube.com
-||www.youtube.com/s/player/*/fetch-polyfill.vflset/fetch-polyfill.js$script,domain=www.youtube.com
-
 ! rarbgway.org
+||rarbgway.org/ajax_news_v2.php$xhr,1p
 ||dyncdn.me/static/20/js/expla95.js$script,domain=rarbgway.org
 ||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
-rarbgway.org##+js(aopr, el)
+||dyncdn.me/static/20/js/expla96.js$script,domain=rarbgway.org
