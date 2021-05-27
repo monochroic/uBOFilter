@@ -54,8 +54,10 @@
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
 zingnews.vn##+js(acis, fbq)
-zingnews.vn##+js(aopr, _zap)
-zingnews.vn##+js(aopr, znApp)
+zingnews.vn##+js(aopw, _zap)
+zingnews.vn##+js(aopw, znApp)
+zingnews.vn##+js(acis, ga)
+zingnews.vn##+js(aopw, adtimaConfig)
 
 ! baomoi.com
 ||service.baomoi.com^$1p
@@ -81,15 +83,11 @@ zingnews.vn##+js(aopr, znApp)
 tinhte.vn##+js(acis, fbq)
 tinhte.vn##+js(acis, fbAsyncInit)
 tinhte.vn##+js(acis, firebaseConfig)
-tinhte.vn##+js(acis, getClientId)
-tinhte.vn##+js(acis, getBrowserInfo)
-tinhte.vn##+js(acis, getUtmInfo)
-tinhte.vn##+js(acis, getUserId)
-tinhte.vn##+js(acis, getFingerprint)
-tinhte.vn##+js(acis, generateSignature)
 tinhte.vn##+js(acis, ga)
 tinhte.vn##+js(acis, ccadnet_fb)
-tinhte.vn##+js(aopr, ccnAdsQueue)
+tinhte.vn##+js(aopw, ccnAdsQueue)
+tinhte.vn##+js(aopw, adsbygoogle)
+tinhte.vn##+js(aopw, arfAsync)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
@@ -98,6 +96,7 @@ tiki.vn##+js(aopw, blueshift)
 tiki.vn##+js(acis, amplitude)
 tiki.vn##+js(aopw, _blueshiftid)
 tiki.vn##+js(aopw, fbAsyncInit)
+tiki.vn##+js(aopw, ga)
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
