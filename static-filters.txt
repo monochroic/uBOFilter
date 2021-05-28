@@ -80,6 +80,8 @@ zingnews.vn##+js(aopw, adtimaConfig)
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
+||tinhte.vn/_next/static/*/pages/threadUIView.js$script,1p
+||tinhte.vn/_next/static/*/pages/index.js$script,1p
 tinhte.vn##+js(acis, fbq)
 tinhte.vn##+js(acis, fbAsyncInit)
 tinhte.vn##+js(acis, firebaseConfig)
@@ -91,6 +93,7 @@ tinhte.vn##+js(aopw, arfAsync)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
+||tiki.vn/api/v2/search/suggestion$xhr,1p
 tiki.vn##+js(aopw, tiki)
 tiki.vn##+js(aopw, blueshift)
 tiki.vn##+js(acis, amplitude)
