@@ -133,9 +133,10 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||s1.vnecdn.net/vnexpress/restruct/j/*/ads.js$script,domain=vnexpress.net
 ||vnexpress.net/microservice/block/*$xhr,1p
 ||vnexpress.net/microservice/thirdparty$xhr,1p
-||s1.vnecdn.net/vnexpress/restruct/j/*/redesign/helper/thirdparty/mthirdparty_redesign.js$script,domain=vnexpress.net
 vnexpress.net##+js(aeld, onscroll)
 vnexpress.net##+js(aopw, ga)
+vnexpress.net##+js(aopw, adsbyeclick)
+vnexpress.net##+js(rc, animated-background)
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
