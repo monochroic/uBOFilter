@@ -73,7 +73,7 @@ zingnews.vn##+js(aopw, adtimaConfig)
 ||9gag.com/v1/featured-posts$xhr,1p
 ||9gag.com/embed/featured-videos.html$subdocument,1p
 9gag.com##+js(aopw, fbq)
-9gag.com##+js(acis, ga)
+9gag.com##+js(aopw, ga)
 9gag.com##+js(aopw, _paq)
 9gag.com##+js(aopw, _qevents)
 
@@ -82,6 +82,7 @@ zingnews.vn##+js(aopw, adtimaConfig)
 ||tinhte.vn/v2/js/data.json$xhr,1p
 ||tinhte.vn/_next/static/*/pages/threadUIView.js$script,1p
 ||tinhte.vn/_next/static/*/pages/index.js$script,1p
+||tinhte.vn^$font,1p
 tinhte.vn##+js(acis, fbq)
 tinhte.vn##+js(acis, fbAsyncInit)
 tinhte.vn##+js(acis, firebaseConfig)
@@ -94,12 +95,12 @@ tinhte.vn##+js(aopw, arfAsync)
 ! tiki.vn
 ||trackity.tiki.vn^$1p
 ||tiki.vn/api/v2/search/suggestion$xhr,1p
+||salt.tikicdn.com/desktop/js/plugins/ponto.js$script,domain=tiki.vn
 tiki.vn##+js(aopw, tiki)
 tiki.vn##+js(aopw, blueshift)
 tiki.vn##+js(acis, amplitude)
 tiki.vn##+js(aopw, _blueshiftid)
 tiki.vn##+js(aopw, fbAsyncInit)
-tiki.vn##+js(aopw, ga)
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
@@ -129,8 +130,12 @@ tiki.vn##+js(aopw, ga)
 ||la3.vnecdn.net^$domain=vnexpress.net
 ||la2.vnecdn.net^$domain=vnexpress.net
 ||video.vnexpress.net^$subdocument,1p
-||s1.vnecdn.net/vnexpress/restruct/j/v1442/v2/helper/mvod/ads.js$script,domain=vnexpress.net
+||s1.vnecdn.net/vnexpress/restruct/j/*/ads.js$script,domain=vnexpress.net
 ||vnexpress.net/microservice/block/*$xhr,1p
+||vnexpress.net/microservice/thirdparty$xhr,1p
+||s1.vnecdn.net/vnexpress/restruct/j/*/redesign/helper/thirdparty/mthirdparty_redesign.js$script,domain=vnexpress.net
+vnexpress.net##+js(aeld, onscroll)
+vnexpress.net##+js(aopw, ga)
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
