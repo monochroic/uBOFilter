@@ -133,7 +133,10 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||s1.vnecdn.net/vnexpress/restruct/j/*/ads.js$script,domain=vnexpress.net
 ||vnexpress.net/microservice/block/*$xhr,1p
 ||vnexpress.net/microservice/thirdparty$xhr,1p
-vnexpress.net##+js(aeld, onscroll)
+||s1.vnecdn.net/vnexpress/restruct/c/v641/v2/fonts/*$font,domain=vnexpress.net
+||vnexpress.net/microservice/getconsultants/aid/4245034$xhr,1p
+vnexpress.net##+js(rc, nav_user)
+vnexpress.net##+js(aeld, scroll)
 vnexpress.net##+js(aopw, ga)
 vnexpress.net##+js(aopw, adsbyeclick)
 vnexpress.net##+js(rc, animated-background)
