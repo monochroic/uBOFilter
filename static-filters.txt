@@ -33,8 +33,6 @@ zingnews.vn##+js(aopw, adtimaConfig)
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
-||tinhte.vn/_next/static/*/pages/threadUIView.js$script,1p
-||tinhte.vn/_next/static/*/pages/index.js$script,1p
 ||tinhte.vn^$font,1p
 tinhte.vn##+js(acis, fbq)
 tinhte.vn##+js(acis, fbAsyncInit)
@@ -44,6 +42,7 @@ tinhte.vn##+js(acis, ccadnet_fb)
 tinhte.vn##+js(aopw, ccnAdsQueue)
 tinhte.vn##+js(aopw, adsbygoogle)
 tinhte.vn##+js(aopw, arfAsync)
+tinhte.vn##+js(acis, googletag)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
@@ -89,10 +88,12 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||s1.vnecdn.net/vnexpress/restruct/c/v641/v2/fonts/*$font,domain=vnexpress.net
 ||vnexpress.net/microservice/getconsultants/aid/4245034$xhr,1p
 vnexpress.net##+js(rc, nav_user)
-vnexpress.net##+js(aeld, scroll)
+!vnexpress.net##+js(aeld, scroll)
 vnexpress.net##+js(aopw, ga)
 vnexpress.net##+js(aopw, adsbyeclick)
 vnexpress.net##+js(rc, animated-background)
+vnexpress.net##+js(acis, googletag)
+vnexpress.net###header_sticky:style(transition-duration: 0ms !important;)
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
