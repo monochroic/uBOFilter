@@ -6,11 +6,6 @@
 ||api.zingnews.vn/public/v2/history$xhr,1p
 ||api.zingnews.vn/public/v2/getMayMissArticles$xhr,1p
 ||api.zingnews.vn/public/v2/getUtilities$xhr,1p
-zingnews.vn##+js(acis, fbq)
-zingnews.vn##+js(aopw, _zap)
-zingnews.vn##+js(aopw, znApp)
-zingnews.vn##+js(acis, ga)
-zingnews.vn##+js(aopw, adtimaConfig)
 
 ! baomoi.com
 ||service.baomoi.com^$1p
@@ -25,34 +20,15 @@ zingnews.vn##+js(aopw, adtimaConfig)
 ||privacy-api.9gag.com^$1p
 ||9gag.com/v1/featured-posts$xhr,1p
 ||9gag.com/embed/featured-videos.html$subdocument,1p
-9gag.com##+js(aopw, fbq)
-9gag.com##+js(aopw, ga)
-9gag.com##+js(aopw, _paq)
-9gag.com##+js(aopw, _qevents)
 
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
 ||tinhte.vn^$font,1p
-tinhte.vn##+js(acis, fbq)
-tinhte.vn##+js(acis, fbAsyncInit)
-tinhte.vn##+js(acis, firebaseConfig)
-tinhte.vn##+js(acis, ga)
-tinhte.vn##+js(acis, ccadnet_fb)
-tinhte.vn##+js(aopw, ccnAdsQueue)
-tinhte.vn##+js(aopw, adsbygoogle)
-tinhte.vn##+js(aopw, arfAsync)
-tinhte.vn##+js(acis, googletag)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
-||tiki.vn/api/v2/search/suggestion$xhr,1p
 ||salt.tikicdn.com/desktop/js/plugins/ponto.js$script,domain=tiki.vn
-tiki.vn##+js(aopw, tiki)
-tiki.vn##+js(aopw, blueshift)
-tiki.vn##+js(acis, amplitude)
-tiki.vn##+js(aopw, _blueshiftid)
-tiki.vn##+js(aopw, fbAsyncInit)
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
@@ -77,7 +53,6 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||logperf.vnexpress.net^$1p
 ||gw.vnexpress.net^$1p
 ||ps.vnexpress.net^$1p
-||s.vnecdn.net/myvne/*$domain=vnexpress.net
 ||la.vnecdn.net^$domain=vnexpress.net
 ||la3.vnecdn.net^$domain=vnexpress.net
 ||la2.vnecdn.net^$domain=vnexpress.net
@@ -85,15 +60,8 @@ tiki.vn##+js(aopw, fbAsyncInit)
 ||s1.vnecdn.net/vnexpress/restruct/j/*/ads.js$script,domain=vnexpress.net
 ||vnexpress.net/microservice/block/*$xhr,1p
 ||vnexpress.net/microservice/thirdparty$xhr,1p
-||s1.vnecdn.net/vnexpress/restruct/c/v641/v2/fonts/*$font,domain=vnexpress.net
+||s1.vnecdn.net^$font,domain=vnexpress.net
 ||vnexpress.net/microservice/getconsultants/aid/4245034$xhr,1p
-vnexpress.net##+js(rc, nav_user)
-!vnexpress.net##+js(aeld, scroll)
-vnexpress.net##+js(aopw, ga)
-vnexpress.net##+js(aopw, adsbyeclick)
-vnexpress.net##+js(rc, animated-background)
-vnexpress.net##+js(acis, googletag)
-vnexpress.net###header_sticky:style(transition-duration: 0ms !important;)
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
