@@ -41,6 +41,7 @@
 ||gravatar.com^
 ||firebaseinstallations.googleapis.com^
 ||firebase.googleapis.com^
+||adtima-static.zascdn.me^
 
 ! -- THIRD PARTY DOMAINS --
 ||yahoo.com^$3p
@@ -50,9 +51,12 @@
 ! zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
+||static-znews.zadn.vn^$font,domain=zingnews.vn
+||static-znews.zadn.vn/fonts/*$stylesheet,domain=zingnews.vn
+||fonts.googleapis.com^$domain=zingnews.vn
 
 ! 9gag.com
-||9gag.com/static/piwik.7688214.js$script,1p
+||9gag.com/static/piwik*$script,1p
 ||t.9gag.com^$1p
 ||web-t.9gag.com^$1p
 ||privacy-api.9gag.com^$1p
