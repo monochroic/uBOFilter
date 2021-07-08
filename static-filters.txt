@@ -52,7 +52,6 @@
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
 ||static-znews.zadn.vn^$font,domain=zingnews.vn
-||static-znews.zadn.vn/fonts/*$stylesheet,domain=zingnews.vn
 ||fonts.googleapis.com^$domain=zingnews.vn
 
 ! 9gag.com
@@ -71,6 +70,11 @@
 ! tiki.vn
 ||trackity.tiki.vn^$1p
 ||salt.tikicdn.com/desktop/js/plugins/ponto.js$script,domain=tiki.vn
+||tiki.vn^$removeparam=tmsx
+||tiki.vn^$removeparam=src
+||tiki.vn^$removeparam=spid
+||tiki.vn^$removeparam=trackity_id
+||tiki.vn/api/v2/products$removeparam=include
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
