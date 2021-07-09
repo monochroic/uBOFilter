@@ -39,20 +39,19 @@
 ||quantserve.com^
 ||vi-serve.com^
 ||gravatar.com^
-||firebaseinstallations.googleapis.com^
-||firebase.googleapis.com^
 ||adtima-static.zascdn.me^
 
 ! -- THIRD PARTY DOMAINS --
 ||yahoo.com^$3p
 ||twitter.com^$3p
 ||facebook.com^$3p
+||googleapis.com^$3p
 
 ! zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
-||static-znews.zadn.vn^$font,domain=zingnews.vn
-||fonts.googleapis.com^$domain=zingnews.vn
+||static-znews.zadn.vn/fonts/noto-serif/*$font,domain=zingnews.vn
+||static-znews.zadn.vn/fonts/roboto/*$font,domain=zingnews.vn
 
 ! 9gag.com
 ||9gag.com/static/piwik*$script,1p
