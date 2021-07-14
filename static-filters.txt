@@ -45,13 +45,10 @@
 ||yahoo.com^$3p
 ||twitter.com^$3p
 ||facebook.com^$3p
-||googleapis.com^$3p
 
 ! zingnews.vn
 ||log.zingnews.vn^$1p
 ||zjs.zadn.vn^$xhr,domain=zingnews.vn
-||static-znews.zadn.vn/fonts/noto-serif/*$font,domain=zingnews.vn
-||static-znews.zadn.vn/fonts/roboto/*$font,domain=zingnews.vn
 
 ! 9gag.com
 ||9gag.com/static/piwik*$script,1p
@@ -64,7 +61,7 @@
 ! tinhte.vn
 ||sa.tinhte.vn^$1p
 ||tinhte.vn/v2/js/data.json$xhr,1p
-||tinhte.vn^$font,1p
+||tinhte.vn^$subdocument,1p
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
