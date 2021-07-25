@@ -45,6 +45,7 @@
 ||yahoo.com^$3p
 ||twitter.com^$3p
 ||facebook.com^$3p
+||accounts.google.com^$3p
 
 ! zingnews.vn
 ||log.zingnews.vn^$1p
@@ -91,7 +92,6 @@
 
 ! vnexpress.net
 ||logperf.vnexpress.net^$1p
-||gw.vnexpress.net^$1p
 ||ps.vnexpress.net^$1p
 ||la.vnecdn.net^$domain=vnexpress.net
 ||la3.vnecdn.net^$domain=vnexpress.net
@@ -102,6 +102,7 @@
 ||vnexpress.net/microservice/thirdparty$xhr,1p
 ||s1.vnecdn.net^$font,domain=vnexpress.net
 ||vnexpress.net/microservice/getconsultants/aid/4245034$xhr,1p
+||s1.vnecdn.net/vnexpress/restruct/j/*/eclick/ea3.js$script,domain=vnexpress.net
 
 ! 24h.com.vn
 ||cdn.24h.com.vn/js/24hgatracking/fe/prod/24huidmbutil.min.js$script,1p
@@ -119,6 +120,5 @@ bigc.vn##+js(rc,col-md-8)
 
 ! rarbgway.org
 ||rarbgway.org/ajax_news_v2.php$xhr,1p
-||dyncdn.me/static/20/js/expla95.js$script,domain=rarbgway.org
+||dyncdn.me/static/20/js/expla*$script,domain=rarbgway.org
 ||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
-||dyncdn.me/static/20/js/expla96.js$script,domain=rarbgway.org
