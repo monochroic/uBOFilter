@@ -12,10 +12,6 @@
 ||amcdn.vn^
 ||cache.vn^
 ||unpkg.com^
-||adtima-static.zadn.vn^
-||stc-sp.zadn.vn^
-||sp.zalo.me^
-||zaloapp.com^
 ||amplitude.com^
 ||getblueshift.com^
 ||onesignal.com^
@@ -39,17 +35,12 @@
 ||quantserve.com^
 ||vi-serve.com^
 ||gravatar.com^
-||adtima-static.zascdn.me^
 
 ! -- THIRD PARTY DOMAINS --
 ||yahoo.com^$3p
 ||twitter.com^$3p
 ||facebook.com^$3p
 ||accounts.google.com^$3p
-
-! zingnews.vn
-||log.zingnews.vn^$1p
-||zjs.zadn.vn^$xhr,domain=zingnews.vn
 
 ! 9gag.com
 ||9gag.com/static/piwik*$script,1p
@@ -78,13 +69,6 @@
 ||tuoitre.vn^$subdocument,1p
 ||tuoitrenews.vn^$subdocument,domain=tuoitre.vn
 
-! vnreview.vn
-||vnreview.vn/ThemeReview-theme/js/ads.home.vn.js$script,1p
-||vnreview.vn/ThemeReview-theme/js/adshome.js$script,1p
-||vnreview.vn/ReviewPage-theme/js/googleAdsense.js$script,1p
-||vnreview.vn/ThemeReview-theme/js/ads.js$script,1p
-||analytics.vnreview.vn^$1p
-
 ! mspoweruser.com
 ||mspoweruser.com^$font,1p
 ||mspoweruser.com^$xhr,1p
@@ -98,7 +82,6 @@
 ||la2.vnecdn.net^$domain=vnexpress.net
 ||video.vnexpress.net^$subdocument,1p
 ||s1.vnecdn.net/vnexpress/restruct/j/*/ads.js$script,domain=vnexpress.net
-||vnexpress.net/microservice/block/*$xhr,1p
 ||vnexpress.net/microservice/thirdparty$xhr,1p
 ||s1.vnecdn.net^$font,domain=vnexpress.net
 ||vnexpress.net/microservice/getconsultants/aid/4245034$xhr,1p
@@ -120,5 +103,5 @@ bigc.vn##+js(rc,col-md-8)
 
 ! rarbgway.org
 ||rarbgway.org/ajax_news_v2.php$xhr,1p
-||dyncdn.me/static/20/js/expla*$script,domain=rarbgway.org
-||dyncdn.me/static/20/js/showads.js$script,domain=rarbgway.org
+||dyncdn*expla*$script,domain=rarbgway.org
+||dyncdn*showads.js$script,domain=rarbgway.org
