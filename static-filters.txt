@@ -56,11 +56,6 @@
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
-||tiki.vn^$removeparam=tmsx
-||tiki.vn^$removeparam=src
-||tiki.vn^$removeparam=spid
-||tiki.vn^$removeparam=trackity_id
-||tiki.vn/api/v2/products$removeparam=include
 
 ! tuoitre.vn
 ||quangcao.tuoitre.vn^$1p
