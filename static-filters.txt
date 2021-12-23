@@ -1,45 +1,4 @@
-! Title: Specific site filters
-
-! -- BLOCKED DOMAINS --
-||doubleclick.net^
-||admicro.vn^
-||adtimaserver.vn^
-||googlesyndication.com^
-||google-analytics.com^
-||googletagservices.com^
-||googletagmanager.com^
-||connect.facebook.net^
-||amcdn.vn^
-||cache.vn^
-||unpkg.com^
-||amplitude.com^
-||getblueshift.com^
-||onesignal.com^
-||eclick.vn^
-||3lift.com^
-||adnxs.com^
-||adsrvr.org^
-||casalemedia.com^
-||criteo.com^
-||criteo.net^
-||indexww.com^
-||lijit.com^
-||openx.net^
-||pbstck.com^
-||pubmatic.com^
-||rlcdn.com^
-||rubiconproject.com^
-||videoplayerhub.com^
-||amazon-adsystem.com^
-||consensu.org^
-||quantserve.com^
-||vi-serve.com^
-||gravatar.com^
-
-! -- THIRD PARTY DOMAINS --
-||yahoo.com^$3p
-||twitter.com^$3p
-||facebook.com^$3p
+! Title: Monochroic
 
 ! 9gag.com
 ||9gag.com/static/piwik*$script,1p
